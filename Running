@@ -1,0 +1,9 @@
+public class Running extends Workout{
+    static int D;
+
+    public static void information() {
+        Workout w = new Workout();
+
+        System.out.println("Беговая тренировка! Длительность: " + w.t + " минут. Дистанция: " + D + " Килокалорий: " + w.E);
+    }
+}
