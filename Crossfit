@@ -1,0 +1,9 @@
+public class Crossfit extends Workout{
+    static int MaxProjectileWeight;
+
+    public static void information(){
+        Workout w = new Workout();
+
+        System.out.println("Кроссфит тренировка! Длительность: "+ w.t+" минут. Максимальный вес снаряда: "+MaxProjectileWeight+" Килокалорий: "+ w.E);
+    }
+}
