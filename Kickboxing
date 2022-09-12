@@ -1,0 +1,7 @@
+public class Kickboxing extends Workout{
+    public static void information(){
+        Workout w = new Workout();
+
+        System.out.println("Тренировка по кикбоксингу! Длительность: "+ w.t+" минут. Килокалорий: "+ w.E);
+    }
+}
